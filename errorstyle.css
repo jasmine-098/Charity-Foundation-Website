@@ -1,0 +1,30 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.btn-outline {
+    border-color: #fa6f1c;
+    color: #fa6f1c;
+  }
+  
+  .btn-outline:hover {
+    background-color: #fa6f1c; 
+    color: #fff; 
+  }
+  .div1{
+    width: 100% !important;
+    height: 220px !important;
+    position: relative;
+    background-color: rgb(220, 211, 200)
+  }
+  .text{
+    position: absolute;
+    top: 4em;
+    padding: 2em;
+  }

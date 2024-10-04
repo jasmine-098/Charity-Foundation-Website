@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charity Foundation</title>
+     <!-- Bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- Google fonts link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+     <!-- Font Awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- custom style sheet -->
+     <link rel="stylesheet" href="style.css">  
+  </head>
+  <body>
+    <!-- HOME PAGE -->
+    <!-- 1 navbar -->
+    <div class="bar container-fluid d-md-inline-flex justify-content-between bg-body-tertiary pt-3 mx-md-auto">
+    <p class="">
+      <i class="fa-solid fa-phone fa-flip-horizontal me-1" style="color: #545454;"></i> 
+      Call Us : <span class="fw-medium">+1 514 000 0000</span>
+    </p>
+    <p class="ms-auto">
+      <i class="fa-brands fa-facebook-f mx-3" style="color: #545454;"></i> 
+      <i class="fa-brands fa-twitter mx-3" style="color: #545454;"></i> 
+      <i class="fa-brands fa-google-plus-g mx-3" style="color: #545454;"></i> 
+      <i class="fa-brands fa-linkedin-in mx-3" style="color: #545454;"></i>
+    </p>
+  </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="" src="./assets/logo.png" style="width: 110px;" alt=""><span class="m-lg-4 m-2 me-0" style="font-size: 16px; color: #363636;">Foundation</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 13px;">
+          <li class="nav-item">
+            <a class="nav-link active me-3" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-3" style="color: #000;"href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #000; font-size: 15px;" href="./aboutus.html">HTML ELEMENTS</a></li>
+              <li><a class="dropdown-item" style="color: #000; font-size: 15px;" href="./error.html">404 ERROR PAGE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-3" style="color: #000;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CAUSES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #000; font-size: 15px;" href="./causes.html">SINGLE CAUSE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-3" style="color: #000;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              EVENTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #000; font-size: 15px;" href="./events.html">SINGLE CAUSE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-3" href="./error.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-3" href="./staff.html">STAFF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-3" href="./error.html">CONTACT US</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline border-3 rounded-0 px-4" style="font-size: 14px;" type="submit">DONATE</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/slider-intro-image1.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption" style="background-color: #fa6f1c;">
+            <h2 class="h1">SEND CHILDREN TO SCHOOL!</h2>
+            <p class="px-3">Integer sit amet augue iaculis, ultricies justo nec, commodo nisi. Class taciti sociosqu ad litora torquent per conubia nostra</p>            
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/slider-intro-image2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #fa6f1c; width: 400px; bottom: 45%; left: 10%;">
+          <h2 class="" style="font-size: 27px;">WE CAN CHANGE IT<br>TOGETHER LET'S DO IT <br>NOW!</h2>
+          <p>Integer sit amet augue iaculis, ultricies justo nec, commodo nisi. Classtaciti sociosqu.</p>
+          <button class="btn btn-outline-1 border-3 rounded-0 px-4" style="font-size: 14px;" type="submit">LEARN MORE</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards section -->
+  <h2 class="text-center mt-5 pt-3" style="font-weight: 900; text-decoration: underline; color: #d77214;"><span style="color: black; ">FEATURED CAUSES</span></h2>
+  <p class="text-center pt-3 p-sm-3" style="color: #75737f; font-weight: 400;">
+    Integer sit amet augue iaculis, ultricies justo nec, commodo nisi. Class aptent <br>
+  taciti sociosqu ad litora torquent per conubia nostra.
+  
+     <div id="smallImageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        
+        <!-- First Slide -->
+        <div class="carousel-item active p-2">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img1.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">SAVE THE CHILD GIRLS</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Said open land form moved air his signs <br> moveth creepeth appear appear it. <br> Appear living you dry our tree one.
+              </p>
+              <hr> <strong class="ms-2">$56,354.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(72%)</span>
+            </div>
+            
+      
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img2.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">LETS BUILD SOME HOMES</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Subdue and blessed heaven green so one make dry of behold god yielding. Beginning third above lights Given hath very hath living creepeth fish.
+              </p>
+              <hr> <strong class="ms-2">$56,354.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(72%)</span>
+            </div>
+    
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img3.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">HELP CHILD FOR EDUCATION</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Said open land form moved air his signs moveth creepeth appear appear it. Appear living you dry our tree one. The, yielding said said give the lesser us.              </p>
+              <hr> <strong class="ms-2">$22,354.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(51%)</span>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img4.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">GIVE THEM SOME FOOD</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Him for made from without bring won't midst lesser blessed two likeness gathering second over lesser, subdue he for appear saying living moveth.              
+                <hr> <strong class="ms-2">$22,354.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(81%)</span>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Second Slide -->
+        <div class="carousel-item p-2">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img1.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">SAVE THE CHILDREN</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                said without. Two. Appear itself herb creepeth Brought likeness male moved god yielding image for great were given isn't from can't likeness male moved.              </p>
+              <hr> <strong class="ms-2">$11,612.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(63%)</span>
+            </div>
+            
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img2.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">LETS BUILD SOME HOMES</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Sea fifth was grass seasons one rule. Beginning earth them bearing. Them don't Green face seasons fowl gathering above created above kind.             
+                 <hr> <strong class="ms-2">$56,342.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(85%)</span>
+            </div>
+    
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img3.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">HELP CHILD FOR EDUCATION</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Integer accumsan elit viv erra orem ipsum dolor sit amet, consectetur adipiscing , placerat dolor quis, pulvinar velit. Sed auctor lacus eu purus .        
+               <hr> <strong class="ms-2">$56,342.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(72%)</span>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="image-container" style="position: relative; width: 100%; height: 200px;">
+                <img src="./assets/img4.jpg" class="img-fluid d-block" style="width: 100%; height: 100%;" alt="...">
+              </div>
+              <h3 class="ms-2 mt-4" style="font-size: 20px; font-weight: 600;">GIVE THEM SOME FOOD</h3>
+              <p class="ms-2 mt-4" style="font-size: 15px; color: #75737f;">
+                Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together.
+               <hr> <strong class="ms-2">$56,342.00</strong> <br> <span class="ms-2" style="color: rgb(226, 117, 15);">(60%)</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#smallImageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#smallImageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- Section 3 -->
+   <div class="container-xxl mt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+     
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img  src="./assets/sponsor-image2.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/sponsor-image.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+     
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12 bg-dark">
+        <h4 class="text-white pt-5 ps-4 " style="font-size: 17px;">SPONSER THIS ENTIRE PROJECT</h4>
+        <h2 class="text-white ps-4" style="font-size: 27px; font-weight:600;">GIVE EDUCATION TO 100 CHILDREN</h2>
+  
+        <h6 class="text-secondary px-2 ps-4 pt-2" style="text-transform: uppercase; font-size: 15px;">
+          Integer sit amet augue iaculis, ultricies justo nec, comm taciti sociosqu ad litora torquent.        </h6>
+        <p class="text-secondary px-2 ps-4 pt-2 pb-2">
+          Nunc ullamcorper sollicitudin arcu, ut fermentum magna ultricies quis. Proin aliquet, est ut pellentesque malesuada,  purus enim egestas nisl, eget mollis justo lorem facilisis orci. Sed in tristique nulla.
+        </p>
+        <div class="button d-flex flex-column flex-lg-row align-items-center justify-content-center">
+        <button class="btn btn-outline border-3 rounded-0 mb-2" style="font-size: 14px;" type="submit">LEARN MORE</button>
+        <span class="text-white px-3 fw-semibold m-0">OR</span>
+        <div class="email d-flex flex-column align-items-center">
+        <span class="text-white" style="font-size: 13px;">EMAIL US AT </span>
+        <span class="d-block mb-4" style="color: #d77214; text-transform: uppercase;">info@charitytheme.com</span>
+        </div></div>
+  </div> 
+  </div> 
+  </div>
+
+    <div class="container-xxl mt-5 pt-5">
+    <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="border-right: 1px solid rgb(170, 170, 170);">
+        <div class="featured-news-container d-flex align-items-center justify-content-between">
+          <h4 class="mt-3 ms-2" style="text-decoration: underline #fa6f1c; font-weight: 600;">FEATURED NEWS</h4>
+          <div class="button-container">
+            <button class="nav-button prev-button mt-3" style="width: 45px; height: 30px; border: 1px solid black;">&lt;</button> 
+            <button class="nav-button next-button me-4" style="width: 45px; height: 30px; border: 1px solid black;">&gt;</button> 
+          </div>
+        </div>
+      
+        <!-- Cards Section -->
+        <div class="news-cards-container">
+          <!-- First card -->
+          <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4 p-2">
+                <img src="./assets/Fruits.jpg" class="img-fluid rounded-start mt-4 rounded-end ms-3" style="height: 150px;" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-3 ms-2" style="font-size: 19px; font-weight: 600;">ORGANIZED FOOD CAMP FOR CHILDREN</h5>
+                  <p class="card-text mt-3 ms-2" style="font-size: 15px; color: #75737f; font-weight: 500;">In over under beast seed He. Thing Second stars green there gathering living. Without greater image moving living signs fruit above heaven. Hath, behold isn't Day.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Second card -->
+          <h4 class="ms-3 mt-3" style="font-size: 17px; font-weight: 600;">LATEST NEWS:</h4>
+          <div class="card mb-3" style="max-width: 420px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/latest-news-1.jpg" class="img-fluid ms-5 mt-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 15px; font-weight: 600;">PIZZA TREAT GIVEN TO CHILDREN</h5>
+                  <p class="card-text" style="font-size: 14px; color: #75737f; font-weight: 500;">May 7, 2018.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="card mb-3" style="max-width: 420px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/latest-news-2.jpg" class="img-fluid ms-5 mt-2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 15px; font-weight: 600;">DAY WITH CHILD FROM AFRICA</h5>
+                  <p class="card-text" style="font-size: 14px; color: #75737f; font-weight: 500;">May 7, 2018.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+  
+  
+    <!-- </div> -->
+  
+  
+      <!-- </div> -->
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="border: none;">
+  
+        <div class="featured-news-container d-flex align-items-center justify-content-between">
+          <h4 class="mt-3 ms-3" style="text-decoration: underline #fa6f1c; font-weight: 600;">UPCOMING EVENT</h4>
+          <div class="button-container">
+          <button class="butn border-3 rounded-0 p-1 px-2 mt-2" style="font-size: 14px;" type="submit"><i class="fa-brands fa-facebook-f" style="color: #fafafa;"></i>FACEBOOK PAGE</button>  
+          </div>
+        </div>
+  
+        <div class="card mb-3 mt-4" style="border: none;">
+          <img src="./assets/upcoming-event.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: 600; font-size: 18px;">ORGANIZING MUSIC EVENT TO GET GOOD DONATION</h5>
+             <h6 class="justify-content-space-around" style="color: #75737f; font-size: 16px;"><i class="fa-solid fa-calendar-days me-1" style="color: #75737f;"></i>May 7, 2018 at 2:00 PM <span class="ms-4" style="font-weight: 400;"><i class="fa-solid fa-location-dot me-1" style="color: #75737f;"></i>Montreal</span></h6>
+            <p class="card-text" style="color: #75737f; font-weight: 500;">Donec varius ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.</p>
+        </div>
+        </div>
+  
+  
+      </div>
+  
+    </div>
+  </div>
+  <hr>
+  
+    <div class="featured-news-container d-flex align-items-center justify-content-between mt-5 pt-2">
+      <h4 class="mt-3 ms-4" style="text-decoration: underline #fa6f1c; font-weight: 600;">OUR STAFF</h4>
+      <div class="button-container">
+        <button class="nav-button prev-button mt-3" style="width: 45px; height: 30px; border: 1px solid black;">&lt;</button> 
+        <button class="nav-button next-button me-5" style="width: 45px; height: 30px; border: 1px solid black;">&gt;</button> 
+      </div>
+    </div>
+  
+  
+  <div class="container-xxl">
+  <div class="row mt-4">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+      <div class="card" style="max-width: 800px; border: none;">
+        <div class="row g-0" style="height: 100%;">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <img src="./assets/staff-image-1.jpg" class="img-fluid rounded-0 w-100" alt="..." style="object-fit: cover;">
+          </div>
+          <div class="text col-md-6 d-flex align-items-stretch text-center">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <h5 class="card-title" style="color: #27262c; font-size: 17px;">JOHN MARTIN</h5>
+              <p class="card-text" style="color: #75737f; font-weight: 500;">Varius donec ultrices purus. ullam sit amet sapien tortor. Aenean it inteum felis, vel placerat nec.</p>
+              <div class="text">
+                <i class="fa-brands fa-facebook-f px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-twitter px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-linkedin-in px-2 icon" style="color: #75737f;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+      <div class="card mb-3" style="max-width: 800px; border: none;">
+        <div class="row g-0" style="height: 100%;">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <img src="./assets/staff-image-2.jpg" class="img-fluid rounded-0 w-100" alt="..." style="object-fit: cover;">
+          </div>
+          <div class="text col-md-6 d-flex align-items-stretch text-center">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <h5 class="card-title" style="color: #27262c; font-size: 17px;">MICHEAL DPE</h5>
+              <p class="card-text" style="color: #75737f; font-weight: 500;">Donec varius ultrices purus. ullam sit amet sapien tortor. Aenean it inteum felis, vel placerat nec.</p>
+              
+              <div class="text">
+                <i class="fa-brands fa-facebook-f px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-twitter px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-linkedin-in px-2 icon" style="color: #75737f;"></i>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+      <div class="card mb-3" style="max-width: 800px; border: none;">
+        <div class="row g-0" style="height: 100%;">
+         
+          <div class="text col-md-6 d-flex align-items-stretch text-center">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <h5 class="card-title" style="color: #27262c; font-size: 17px;">JOHN MARTIN</h5>
+              <p class="card-text" style="color: #75737f; font-weight: 500;">Varius donec ultrices purus. ullam sit amet sapien tortor. Aenean it inteum felis, vel placerat nec.</p>
+              <div class="text">
+                <i class="fa-brands fa-facebook-f px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-twitter px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-linkedin-in px-2 icon" style="color: #75737f;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <img src="./assets/staff-image-3.jpg" class="img-fluid rounded-0 w-100" alt="..." style="object-fit: cover;">
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+      <div class="card mb-3" style="max-width: 800px; border: none;">
+        <div class="row g-0" style="height: 100%;">
+         
+          <div class="text col-md-6 d-flex align-items-stretch text-center">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <h5 class="card-title" style="color: #27262c; font-size: 17px;">JOHN MARTIN</h5>
+              <p class="card-text" style="color: #75737f; font-weight: 500;">Varius donec ultrices purus. ullam sit amet sapien tortor. Aenean it inteum felis, vel placerat nec.</p>
+              <div class="text">
+                <i class="fa-brands fa-facebook-f px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-twitter px-2 icon" style="color: #75737f;"></i>
+                <i class="fa-brands fa-linkedin-in px-2 icon" style="color: #75737f;"></i>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="col-md-6 d-flex align-items-stretch">
+            <img src="./assets/staff-image-4.jpg" class="img-fluid rounded-0 w-100" alt="..." style="object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-xxl">
+  <h3 class="text-center mt-5 pt-3" style="font-weight: 800; text-decoration: underline #fa6f1c;">WHAT KIDS ARE SAYING ABOUT US</h3>
+  <p class="text-center mt-4 mb-5" style="text-transform: uppercase; color: #75737f; font-weight: 500;">Our prime purpose in this life is to help people. <br>
+    And if you can't help them at least don't hurt them</p>
+  </div>
+  
+   
+  
+  
+  
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+    <!-- Carousel indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    
+    <!-- Carousel inner -->
+    <div class="carousel-inner">
+      <!-- Carousel item 1 -->
+      <div class="carousel-item active">
+        <div class="d-block w-100" style="height: 300px; background-color: #fa6f1c; "></div>
+        <div class="carousel-caption d-block">
+         <p class="" style="font-weight: 500; font-style: italic; font-size: 20px;">
+          Phasellus vitae diam pulvinar, tempus diam et, aliquam tellus. Quisque mattis odio eu placerat luctus. <br>
+          Vivamus magna elit, ultrices non lacinia vel, tempor vitae tellus. Fusce sit amet sem sit <br>
+          amet risus fringilla dapibus sed sit amet odio.
+        </p>
+        <p class="mt-3" style="text-transform: uppercase; color: #903f0d;">Victor Tihai, WPlook Studio</p>
+        </div>
+      </div>
+      
+      <!-- Carousel item 2 -->
+      <div class="carousel-item">
+        <div class="d-block w-100" style="height: 300px; background-color: #fa6f1c;"></div>
+        <div class="carousel-caption d-block">
+         <p class="" style="font-weight: 500; font-style: italic; font-size: 20px;">
+          Phasellus vitae diam pulvinar, tempus diam et, aliquam tellus. Quisque mattis odio eu placerat luctus. <br>
+          Vivamus magna elit, ultrices non lacinia vel, tempor vitae tellus. Fusce sit amet sem sit <br>
+          amet risus fringilla dapibus sed sit amet odio.
+        </p>
+        <p class="mt-3" style="text-transform: uppercase; color: #903f0d;">Diana Tihai, WPlook Studio</p>
+        </div>
+      </div>
+      
+      <!-- Carousel item 3 -->
+      <div class="carousel-item">
+        <div class="d-block w-100" style="height: 300px; background-color: #fa6f1c;"></div>
+        <div class="carousel-caption d-block">
+          <p class="" style="font-weight: 500; font-style: italic; font-size: 20px;">
+            Phasellus vitae diam pulvinar, tempus diam et, aliquam tellus. Quisque mattis odio eu placerat luctus. <br>
+            Vivamus magna elit, ultrices non lacinia vel, tempor vitae tellus. Fusce sit amet sem sit <br>
+            amet risus fringilla dapibus sed sit amet odio.
+          </p>
+          <p class="mt-3" style="text-transform: uppercase; color: #903f0d;">Johnathan Doe, WPlook Studio</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-xxl d-md-inline-flex justify-content-between pb-lg-0 pb-4" style="background-color: #000;">
+  <h3 class="pt-5 pe-3 text-lg-start text-center pb-4" style="font-weight: 700; color: #fafafa;">CHANGE THEIR WORLD. CHANGE YOURS. <br> THIS CHANGES EVERYTHING.</h3>
+  <div class="button d-flex flex-column flex-lg-row align-items-center justify-content-center">
+    <button class="btn btn-outline border-3 rounded-0 mb-2 mt-lg-5 mt-3 me-lg-2 me-1" style="font-size: 14px;" type="submit">BECOME VOLUNTEER</button>
+    <span class="text-white px-3 fw-semibold m-0 mt-lg-5 mt-2">OR</span>
+    <div class="d-flex flex-column align-items-center">
+      <button class="btn btn-outline border-3 rounded-0 mb-2 me-3 mt-lg-5 mt-2 pe-3 ms-3" style="font-size: 14px;" type="submit">DONATE FOR CAUSE</button>
+    </div></div>
+    </div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <section class="" style="color: #fafafa;">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-5">
+          <h6 class="text-uppercase fw-bold mb-4" style="text-decoration: underline #fa6f1c;">
+            ABOUT CHARITY
+          </h6>
+          <p style="font-weight: 400; color: #75737f;">
+            Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="text-decoration: underline #fa6f1c;">
+            QUICK LINKS
+          </h6>
+          <p>
+            <a href="#" class="" style="font-weight: 400; color: #75737f; text-decoration: none;">CAUSES</a>
+          </p>
+          <p>
+            <a href="#!" class="" style="font-weight: 400; color: #75737f; text-decoration: none;">PROJECTS</a>
+          </p>
+          <p>
+            <a href="#!" class="" style="font-weight: 400; color: #75737f; text-decoration: none;">GALLERY</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
+          <h6 class="text-uppercase fw-bold mb-4" style="text-decoration: underline #fa6f1c;">
+            Newsletter Signup
+          </h6>
+          <p style="font-weight: 400; color: #75737f;">
+          Select your newsletters, enter your email address, and click "Subscribe"
+          </p>
+          <div class="input-group mb-3" style="border: none;">
+            <input type="text" class="form-control rounded-0" placeholder="Email.." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary rounded-0" type="button" id="button-addon2" style="background-color: #fa6f1c; color: #fafafa; border: none;">Go</button>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
+          <h6 class="text-uppercase fw-bold mb-4" style="text-decoration: underline #fa6f1c;">Contact us</h6>
+          <p class="" style="color: #75737f; font-weight: 400;"><span class="me-1">Address: </span>51 Sherbrooke W., Montreal, Quebec, Canada</p>
+          <p style="color: #75737f; font-weight: 400;"><i class="fas fa-phone me-3"></i> +1 514 000 0000</p>
+          <p style="color: #75737f; font-weight: 400;">
+            <i class="fas fa-envelope me-3"></i>
+            info@charitytheme.com
+                    </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="d-flex justify-content-center justify-content-lg-between p-4" style="color: #fafafa;">
+    <div class="me-5 d-none d-lg-block" style="font-weight: 400; color: #75737f;">
+      <span>Copyright 2019. All Rights Reserved by Charity Theme. Designed by <span class="text-light">WPlook Themes</span></span>
+    </div>
+    <div>
+      <a href="" class="me-4" style="color: #75737f; text-decoration: none;">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4" style="color: #75737f; text-decoration: none;">
+        <i class="fa-brands fa-twitter"></i>      
+      </a>
+      <a href="" class="me-4" style="color: #75737f; text-decoration: none;">
+        <i class="fa-brands fa-google-plus-g"></i>      
+      </a>
+      <a href="" class="me-4" style="color: #75737f; text-decoration: none;">
+        <i class="fa-brands fa-linkedin-in"></i>      
+      </a>
+    </div>
+  </section>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
